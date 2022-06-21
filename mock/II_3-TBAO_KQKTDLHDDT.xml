@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TDiep>
+
+  <TTChung>
+    <PBan>2.0.0</PBan>
+    <MNGui>MNGui</MNGui>
+    <MNNhan>MNNhan</MNNhan>
+    <MLTDiep>999</MLTDiep>
+    <MTDiep>MTDiep</MTDiep>
+    <MTDTChieu>MTDTChieu</MTDTChieu>
+    <MST>1010101010</MST>
+    <SLuong>9999999</SLuong>
+  </TTChung>
+
+  <DLieu>
+    <TBao>
+      <DLTBao>
+        <PBan>2.0.0</PBan>
+        <MSo>15 - Mẫu số</MSo>
+        <Ten>255 - Tên thông báo</Ten>
+        <So>30 - Số thông báo</So>
+        <DDanh>50 - Địa danh</DDanh>
+        <NTBao>2021-01-01T23:59:59</NTBao>
+        <MST>1010101010</MST>
+        <TNNT>400 - Tên người nộp thuế</TNNT>
+        <!--Số (Chi tiết tại Phụ lục XIV kèm theo Quy định này)-->
+        <LTBao>1</LTBao>
+        <CCU>255 - CCu</CCU>
+        <!--Số (0: Không hợp lệ, 1: Hợp lệ)-->
+        <KQKTra>0</KQKTra>
+        <MGDDTu>25 - MGDDTu</MGDDTu>
+        <!--Số (7)-->
+        <SLuong>1000</SLuong>
+
+        <LCMa>
+          <KHMSHDon>11 - KHMSHDon</KHMSHDon>
+          <KHHDon>8 - KHHDon</KHHDon>
+          <SHDon>8 - SHDon</SHDon>
+          <Ngay>2021-01-01T23:59:59</Ngay>
+
+          <DSLDo>
+            <LDo>
+              <STT>1</STT>
+              <MTLoi>255 - MTLoi0</MTLoi>
+              <HDXLy>255 - HDXLy0</HDXLy>
+              <GChu>255 - GChu0</GChu>
+            </LDo>
+            <LDo>
+              <STT>2</STT>
+              <MTLoi>255 - MTLoi1</MTLoi>
+              <HDXLy>255 - HDXLy1</HDXLy>
+              <GChu>255 - GChu1</GChu>
+            </LDo>
+          </DSLDo>
+        </LCMa>
+
+        <LGDLieu>
+          <DSLDo>
+            <LDo>
+              <STT>1</STT>
+              <MTLoi>255 - MTLoi0</MTLoi>
+              <HDXLy>255 - HDXLy0</HDXLy>
+              <GChu>255 - GChu0</GChu>
+            </LDo>
+            <LDo>
+              <STT>2</STT>
+              <MTLoi>255 - MTLoi1</MTLoi>
+              <HDXLy>255 - HDXLy1</HDXLy>
+              <GChu>255 - GChu1</GChu>
+            </LDo>
+          </DSLDo>
+        </LGDLieu>
+
+        <LHDKMa>
+          <DSLDo>
+            <LDo>
+              <STT>1</STT>
+              <KHMSHDon>11 - KHMSHDon0</KHMSHDon>
+              <KHHDon>8 - KHHDon0</KHHDon>
+              <SHDon>8 - SHDon0</SHDon>
+              <MTLoi>255 - MTLoi0</MTLoi>
+              <HDXLy>255 - HDXLy0</HDXLy>
+              <GChu>255 - GChu0</GChu>
+            </LDo>
+            <LDo>
+              <STT>2</STT>
+              <KHMSHDon>11 - KHMSHDon1</KHMSHDon>
+              <KHHDon>8 - KHHDon1</KHHDon>
+              <SHDon>8 - SHDon1</SHDon>
+              <MTLoi>255 - MTLoi1</MTLoi>
+              <HDXLy>255 - HDXLy1</HDXLy>
+              <GChu>255 - GChu1</GChu>
+            </LDo>
+          </DSLDo>
+        </LHDKMa>
+
+        <LBTHop>
+          <DSLDo>
+            <LDo>
+              <STT>1</STT>
+              <KDLieu>7 - KDLieu0</KDLieu>
+              <BSLThu>111</BSLThu>
+              <MTLoi>255 - MTLoi0</MTLoi>
+              <HDXLy>255 - HDXLy0</HDXLy>
+              <GChu>255 - GChu0</GChu>
+            </LDo>
+            <LDo>
+              <STT>2</STT>
+              <KDLieu>7 - KDLieu1</KDLieu>
+              <BSLThu>222</BSLThu>
+              <MTLoi>255 - MTLoi1</MTLoi>
+              <HDXLy>255 - HDXLy1</HDXLy>
+              <GChu>255 - GChu1</GChu>
+            </LDo>
+          </DSLDo>
+        </LBTHop>
+
+        <LKXDau>
+          <DSLDo>
+            <LDo>
+              <STT>1</STT>
+              <KDLieu>7 - KDLieu0</KDLieu>
+              <BSLThu>111</BSLThu>
+              <KHMSHDon>11 - KHMSHDon0</KHMSHDon>
+              <KHHDon>8 - KHHDon0</KHHDon>
+              <SHDon>8 - SHDon0</SHDon>
+              <Ngay>2021-01-01T23:59:59</Ngay>
+              <TNMua>400 - TNMua0</TNMua>
+              <MTLoi>255 - MTLoi0</MTLoi>
+              <HDXLy>255 - HDXLy0</HDXLy>
+              <GChu>255 - GChu0</GChu>
+            </LDo>
+            <LDo>
+              <STT>2</STT>
+              <KDLieu>7 - KDLieu1</KDLieu>
+              <BSLThu>222</BSLThu>
+              <KHMSHDon>11 - KHMSHDon1</KHMSHDon>
+              <KHHDon>8 - KHHDon1</KHHDon>
+              <SHDon>8 - SHDon1</SHDon>
+              <Ngay>2021-01-01T23:59:59</Ngay>
+              <TNMua>400 - TNMua1</TNMua>
+              <MTLoi>255 - MTLoi1</MTLoi>
+              <HDXLy>255 - HDXLy1</HDXLy>
+              <GChu>255 - GChu1</GChu>
+            </LDo>
+          </DSLDo>
+        </LKXDau>
+
+        <LXDau>
+          <DSLDo>
+            <LDo>
+              <STT>1</STT>
+              <KDLieu>7 - KDLieu0</KDLieu>
+              <BSLThu>111</BSLThu>
+              <MMHang>100 - MMHang0</MMHang>
+              <KDLDChinh>7 - KDLDChinh0</KDLDChinh>
+              <TNMua>400 - TNMua0</TNMua>
+              <MTLoi>255 - MTLoi0</MTLoi>
+              <HDXLy>255 - HDXLy0</HDXLy>
+              <GChu>255 - GChu0</GChu>
+            </LDo>
+            <LDo>
+              <STT>2</STT>
+              <KDLieu>7 - KDLieu1</KDLieu>
+              <BSLThu>111</BSLThu>
+              <MMHang>100 - MMHang1</MMHang>
+              <KDLDChinh>7 - KDLDChinh1</KDLDChinh>
+              <TNMua>400 - TNMua1</TNMua>
+              <MTLoi>255 - MTLoi1</MTLoi>
+              <HDXLy>255 - HDXLy1</HDXLy>
+              <GChu>255 - GChu1</GChu>
+            </LDo>
+          </DSLDo>
+        </LXDau>
+
+        <LTKhai>
+          <DSLDo>
+            <LDo>
+              <STT>1</STT>
+              <KTThue>7 - KTThue0</KTThue>
+              <TThai>255 - TThai0</TThai>
+              <SLan>111</SLan>
+              <MTLoi>255 - MTLoi0</MTLoi>
+              <HDXLy>255 - HDXLy0</HDXLy>
+              <GChu>255 - GChu0</GChu>
+            </LDo>
+            <LDo>
+              <STT>2</STT>
+              <KTThue>7 - KTThue1</KTThue>
+              <TThai>255 - TThai1</TThai>
+              <SLan>111</SLan>
+              <MTLoi>255 - MTLoi1</MTLoi>
+              <HDXLy>255 - HDXLy1</HDXLy>
+              <GChu>255 - GChu1</GChu>
+            </LDo>
+          </DSLDo>
+        </LTKhai>
+
+        <LCTTKhai>
+          <DSLDo>
+            <LDo>
+              <STT>1</STT>
+              <KHMSHDon>11 - KHMSHDon0</KHMSHDon>
+              <KHHDon>8 - KHHDon0</KHHDon>
+              <SHDon>8 - SHDon0</SHDon>
+              <Ngay>2021-01-01T23:59:59</Ngay>
+              <TNMua>400 - TNMua0</TNMua>
+              <MTLoi>255 - MTLoi0</MTLoi>
+              <HDXLy>255 - HDXLy0</HDXLy>
+              <GChu>255 - GChu0</GChu>
+            </LDo>
+            <LDo>
+              <STT>2</STT>
+              <KHMSHDon>11 - KHMSHDon1</KHMSHDon>
+              <KHHDon>8 - KHHDon1</KHHDon>
+              <SHDon>8 - SHDon1</SHDon>
+              <Ngay>2021-01-01T23:59:59</Ngay>
+              <TNMua>400 - TNMua1</TNMua>
+              <MTLoi>255 - MTLoi1</MTLoi>
+              <HDXLy>255 - HDXLy1</HDXLy>
+              <GChu>255 - GChu1</GChu>
+            </LDo>
+          </DSLDo>
+        </LCTTKhai>
+
+      </DLTBao>
+
+      <DSCKS>
+        <CQT>
+          <Signature></Signature>
+        </CQT>
+        <CCKSKhac></CCKSKhac>
+      </DSCKS>
+    </TBao>
+  </DLieu>
+  <Signature></Signature>
+
+</TDiep>

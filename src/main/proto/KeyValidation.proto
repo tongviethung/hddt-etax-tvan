@@ -1,0 +1,18 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package vn.teca.hddt.category.grpc;
+
+message KeyRequest {
+  string key = 1;
+  string value = 2;
+}
+
+message KeyResponse{
+  int32 statusCode = 1;
+  string statusText = 2;
+  bool status = 3;
+}
+
+service KeyService{
+  rpc validate(KeyRequest) returns (KeyResponse);
+}

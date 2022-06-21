@@ -1,0 +1,12 @@
+# Spring
+spring:
+  application:
+    name: hddt-message
+  profiles:
+    active: prod
+  cloud:
+    config:
+      uri: http://10.100.131.52:8000
+      label: latest
+      username: admin
+      password: hddt123

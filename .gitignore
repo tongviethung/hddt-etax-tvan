@@ -1,0 +1,60 @@
+HELP.md
+target/
+out/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Folder ###
+docs
+
+### Samples ###
+data-test
+
+# Controllers
+#src/main/java/vn/teca/hddt/message/controller/MockTestController.java
+
+# Services
+src/main/java/vn/teca/hddt/etax/tvan/service/TestService.java
+
+# Models
+src/main/java/vn/teca/hddt/etax/tvan/xml/cks/samples
+src/main/java/vn/teca/hddt/etax/tvan/xml/test
+src/main/java/vn/teca/hddt/etax/tvan/xml/HDonBaseXml.java
+
+# Samplers
+src/main/java/vn/teca/hddt/etax/tvan/sampler/ReadParamsRequestSampler.java
+src/main/java/vn/teca/hddt/etax/tvan/sampler/BasicJavaRequestSampler.java
+
+# Convention
+.editorconfig
+
+

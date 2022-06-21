@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TDiep>
+
+    <TTChung>
+        <PBan>2.0.0</PBan>
+        <MNGui>MNGui</MNGui>
+        <MNNhan>MNNhan</MNNhan>
+        <MLTDiep>999</MLTDiep>
+        <MTDiep>MTDiep</MTDiep>
+        <MTDTChieu>MTDTChieu</MTDTChieu>
+        <MST>1010101010</MST>
+        <SLuong>9999999</SLuong>
+    </TTChung>
+
+    <DLieu>
+        <TBao>
+            <DLTBao>
+                <PBan>2.0.0</PBan>
+                <MSo>15 - Mẫu số</MSo>
+                <Ten>255 - Tên thông báo</Ten>
+                <So>30 - Số thông báo</So>
+                <DDanh>50 - Địa danh</DDanh>
+                <NTBao>2021-01-01T23:59:59</NTBao>
+                <TCQTCTren>100 - Tên cơ quan thuế cấp trên</TCQTCTren>
+                <TCQT>100 - Tên cơ quan thuế</TCQT>
+                <TNNT>400 - Tên người nộp thuế</TNNT>
+                <MST>1010101010</MST>
+                <NYCCDoi>2021-01-01T23:59:59</NYCCDoi>
+            </DLTBao>
+
+            <DSCKS>
+                <CQT>
+                    <Signature></Signature>
+                </CQT>
+                <CCKSKhac></CCKSKhac>
+            </DSCKS>
+        </TBao>
+    </DLieu>
+    <Signature></Signature>
+
+</TDiep>

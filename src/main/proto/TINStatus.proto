@@ -1,0 +1,28 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package vn.teca.hddt.category.grpc;
+
+message TINStatusRequest {
+  string tin = 1;
+}
+
+message TINStatusResponse{
+  int32 statusCode = 1;                 // 200: Success - Other: Error
+  string statusText = 2;
+  repeated TINStatus tinStatuses = 3;
+}
+
+message TINStatus{
+  string tin = 1;                       // mã số thuế
+  string ten = 2;                       // tên NNT
+  string cqtqly = 3;                    // mã cơ quan thuế quản lý 4 số
+  string ttmst = 4;                     // trạng thái MST (00-Đang hoạt động, ...)
+  string lnnt = 5;                      // loại người nộp thuế (Doanh nghiệp/Hộ gia đình/.... (dmlnnt))
+  repeated string mnnkdoanh = 6;        // mã ngành nghề kinh doanh
+  string kvcncao = 7;                   // khu vực công nghiệp cao, khu vực công nghiệp (1 Có - 0 Không)
+  string maqlt = 8;
+}
+
+service TINStatusService{
+  rpc findByTIN(TINStatusRequest) returns (TINStatusResponse);
+}

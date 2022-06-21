@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TDiep>
+
+    <TTChung>
+        <PBan>2.0.0</PBan>
+        <MNGui>MNGui</MNGui>
+        <MNNhan>MNNhan</MNNhan>
+        <MLTDiep>999</MLTDiep>
+        <MTDiep>MTDiep</MTDiep>
+        <MTDTChieu>MTDTChieu</MTDTChieu>
+        <MST>1010101010</MST>
+        <SLuong>9999999</SLuong>
+    </TTChung>
+
+    <DLieu>
+        <TKhai>
+            <DLTKhai>
+                <TTChung>
+                    <PBan>2.0.0</PBan>
+                    <MSo>15 - Mẫu số</MSo>
+                    <Ten>100 - Tên tờ khai</Ten>
+                    <HThuc>3</HThuc>
+                    <TNNT>400 - Tên người nộp thuế</TNNT>
+                    <MST>1010101010</MST>
+                    <CQTQLy>100 - CQT quản lý</CQTQLy>
+                    <MCQTQLy>5 - Mã CQL quản lý</MCQTQLy>
+                    <NLHe>50 - Người liên hệ</NLHe>
+                    <DCLHe>400 - Địa chỉ liên hệ</DCLHe>
+                    <DCTDTu>50 - Địa chỉ thư điện tử</DCTDTu>
+                    <DTLHe>0332678979</DTLHe>
+                    <DDanh>Hanoi</DDanh>
+                    <NLap>2021-01-01T23:59:59</NLap>
+                </TTChung>
+
+                <NDTKhai>
+                    <HTHDon>
+                        <CMa>1</CMa>
+                        <KCMa>0</KCMa>
+                    </HTHDon>
+
+                    <!-- Hình thức gửi dữ liệu -->
+                    <HTGDLHDDT>
+                        <!-- Có mã không phải trả tiền dịch vụ: 1 || 0-->
+                        <CMKPTTDVu>1</CMKPTTDVu>
+                        <!-- NTT địa bàn khó khăn: 1 || 0 -->
+                        <NNTDBKKhan>1</NNTDBKKhan>
+                        <!-- NTT khác theo đề nghị UBND: 1 || 0 -->
+                        <NNTKTDNUBND>1</NNTKTDNUBND>
+                        <!-- Không có mã: 1 || 0 -->
+                        <KCMa>1</KCMa>
+                        <!-- Chuyến dữ liệu trực tiếp đến CQT: 1 || 0 -->
+                        <CDLTTDCQT>1</CDLTTDCQT>
+                        <!-- Chuyển dữ liệu qua TVAN: 1 || 0 -->
+                        <CDLQTVAN>1</CDLQTVAN>
+                    </HTGDLHDDT>
+
+                    <PThuc>
+                        <CDDu>1</CDDu>
+                        <CBTHop>1</CBTHop>
+                    </PThuc>
+
+                    <LHDSDung>
+                        <!-- Hóa đơn GTGT -->
+                        <HDGTGT>1</HDGTGT>
+                        <!-- Hóa đơn bán hàng -->
+                        <HDBHang>1</HDBHang>
+                        <!-- Hóa đơn bán tài sản công -->
+                        <HDBTSCong>1</HDBTSCong>
+                        <!-- Hóa đơn bán hàng dữ trữ quốc gia -->
+                        <HDBHDTQGia>1</HDBHDTQGia>
+                        <!-- Hóa đơn khác -->
+                        <HDKhac>1</HDKhac>
+                        <!-- Chứng từ -->
+                        <CTu>1</CTu>
+                    </LHDSDung>
+
+                    <!-- ARRAY -->
+                    <DSCTSSDung>
+                        <CTS>
+                            <STT>1</STT>
+                            <TTChuc>Tên cơ quan chứng thực chữ ký số</TTChuc>
+                            <Seri>Seri chứng thư số</Seri>
+                            <TNgay>2021-01-01T23:59:59</TNgay>
+                            <DNgay>2021-01-01T23:59:59</DNgay>
+                            <!-- 1: Thêm mới; 2: Gia hạn; 3: Ngưng sử dụng -->
+                            <HThuc>1</HThuc>
+                        </CTS>
+                        <CTS>
+                            <STT>1</STT>
+                            <TTChuc>Tên cơ quan chứng thực chữ ký số</TTChuc>
+                            <Seri>Seri chứng thư số</Seri>
+                            <TNgay>2021-01-01T23:59:59</TNgay>
+                            <DNgay>2021-01-01T23:59:59</DNgay>
+                            <!-- 1: Thêm mới; 2: Gia hạn; 3: Ngưng sử dụng -->
+                            <HThuc>1</HThuc>
+                        </CTS>
+                    </DSCTSSDung>
+
+                    <!-- ARRAY -->
+                    <DSDKUNhiem>
+                        <DKUNhiem>
+                            <STT>1</STT>
+                            <TLHDon>Tên loại hóa đơn</TLHDon>
+                            <KHMSHDon>1</KHMSHDon>
+                            <KHHDon>KHHDon</KHHDon>
+                            <MST>1010101010</MST>
+                            <TTChuc>Tên tổ chức</TTChuc>
+                            <MDich>Mục đích</MDich>
+                            <TNgay>2021-01-01T23:59:59</TNgay>
+                            <DNgay>2021-01-01T23:59:59</DNgay>
+                            <PThuc>1</PThuc>
+                        </DKUNhiem>
+                        <DKUNhiem>
+                            <STT>1</STT>
+                            <TLHDon>Tên loại hóa đơn</TLHDon>
+                            <KHMSHDon>1</KHMSHDon>
+                            <KHHDon>KHHDon</KHHDon>
+                            <MST>1010101010</MST>
+                            <TTChuc>Tên tổ chức</TTChuc>
+                            <MDich>Mục đích</MDich>
+                            <TNgay>2021-01-01T23:59:59</TNgay>
+                            <DNgay>2021-01-01T23:59:59</DNgay>
+                            <PThuc>1</PThuc>
+                        </DKUNhiem>
+                    </DSDKUNhiem>
+                </NDTKhai>
+            </DLTKhai>
+
+            <DSCKS>
+                <NNT>
+                    <Signature></Signature>
+                </NNT>
+                <CCKSKhac></CCKSKhac>
+            </DSCKS>
+        </TKhai>
+    </DLieu>
+
+    <Signature>Sign</Signature>
+
+</TDiep>

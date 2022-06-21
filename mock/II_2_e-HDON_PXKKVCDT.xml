@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TDiep>
+
+  <TTChung>
+    <PBan>2.0.0</PBan>
+    <MNGui>MNGui</MNGui>
+    <MNNhan>MNNhan</MNNhan>
+    <MLTDiep>999</MLTDiep>
+    <MTDiep>MTDiep</MTDiep>
+    <MTDTChieu>MTDTChieu</MTDTChieu>
+    <MST>1010101010</MST>
+    <SLuong>9999999</SLuong>
+  </TTChung>
+
+  <DLieu>
+    <HDon>
+      <DLHDon>
+        <TTChung>
+          <PBan>6 - PBan</PBan>
+          <THDon>100 - THDon</THDon>
+          <KHMSHDon>11 - KHMSHDon</KHMSHDon>
+          <KHHDon>6 - KHHDon</KHHDon>
+          <SHDon>8 - SHDon</SHDon>
+          <TDLap>2020-12-12T00:00:00</TDLap>
+          <DVTTe>VND</DVTTe>
+          <!-- Số (7,2)-->
+          <TGia>1000</TGia>
+
+          <TTHDLQuan>
+            <!--Số (1: Thay thế, 2: Điều chỉnh)-->
+            <TCHDon>2</TCHDon>
+            <!--Số (Chi tiết tại Phụ lục VI kèm theo Quy định này)-->
+            <LHDGoc>1</LHDGoc>
+            <KHMSHDGoc>11 - KHMSHDGoc</KHMSHDGoc>
+            <KHHDGoc>8 - KHHDGoc</KHHDGoc>
+            <SHDGoc>7 - SHDGoc</SHDGoc>
+            <LDo>255 - LDo</LDo>
+          </TTHDLQuan>
+
+          <TTKhac>
+            <TTin>
+              <TTruong>TTKhac</TTruong>
+              <KDLieu>String</KDLieu>
+              <DLieu>TTKhac value</DLieu>
+            </TTin>
+          </TTKhac>
+        </TTChung>
+
+        <NDHDon>
+          <NBan>
+            <Ten>400 - Ten</Ten>
+            <MST>14 - MST</MST>
+            <LDDNBo>255 - LDDNBo</LDDNBo>
+            <DCKXHang>400 - DCKXHang</DCKXHang>
+            <HDSo>255 - HDSo</HDSo>
+            <TNVChuyen>400 - TNVChuyen</TNVChuyen>
+            <PTVChuyen>50 - PTVChuyen</PTVChuyen>
+
+            <TTKhac>
+              <TTin>
+                <TTruong>TTKhac</TTruong>
+                <KDLieu>String</KDLieu>
+                <DLieu>TTKhac value</DLieu>
+              </TTin>
+            </TTKhac>
+          </NBan>
+
+          <NMua>
+            <Ten>400 - Ten</Ten>
+            <MST>14 - MST</MST>
+            <DChi>400 - DChi</DChi>
+
+            <TTKhac>
+              <TTin>
+                <TTruong>TTKhac</TTruong>
+                <KDLieu>String</KDLieu>
+                <DLieu>TTKhac value</DLieu>
+              </TTin>
+            </TTKhac>
+          </NMua>
+
+          <DSHHDVu>
+            <HHDVu>
+              <!--Số (Chi tiết tại Phụ lục IV kèm theo Quy định này)-->
+              <TChat>1</TChat>
+              <!--Số (1-Tăng, 2-Giảm, 0-Không tăng giảm giá trị)-->
+              <TCDChinh>0</TCDChinh>
+              <STT>9999</STT>
+              <Ten>500 - Ten</Ten>
+              <MSo>500 - MSo</MSo>
+              <DVTinh>50 - DVTinh</DVTinh>
+              <!--Số (19,4)-->
+              <SLuong>1000</SLuong>
+              <!--Số (19,4)-->
+              <DGia>1000</DGia>
+              <!--Số (19,4)-->
+              <ThTien>1000</ThTien>
+
+              <TTKhac>
+                <TTin>
+                  <TTruong>TTKhac</TTruong>
+                  <KDLieu>String</KDLieu>
+                  <DLieu>TTKhac value</DLieu>
+                </TTin>
+              </TTKhac>
+            </HHDVu>
+          </DSHHDVu>
+        </NDHDon>
+
+        <DLQRCode>512 - DLQRCode</DLQRCode>
+
+        <TTKhac>
+          <TTin>
+            <TTruong>TTKhac</TTruong>
+            <KDLieu>String</KDLieu>
+            <DLieu>TTKhac value</DLieu>
+          </TTin>
+        </TTKhac>
+      </DLHDon>
+
+      <DSCKS>
+        <NBan>
+          <Signature></Signature>
+        </NBan>
+        <NMua>
+          <Signature></Signature>
+        </NMua>
+        <CCKSKhac></CCKSKhac>
+      </DSCKS>
+    </HDon>
+  </DLieu>
+
+</TDiep>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TDiep>
+
+    <TTChung>
+        <PBan>2.0.0</PBan>
+        <MNGui>MNGui</MNGui>
+        <MNNhan>MNNhan</MNNhan>
+        <MLTDiep>999</MLTDiep>
+        <MTDiep>MTDiep</MTDiep>
+        <MTDTChieu>MTDTChieu</MTDTChieu>
+        <MST>1010101010</MST>
+        <SLuong>9999999</SLuong>
+    </TTChung>
+
+    <DLieu>
+        <DNghi>
+            <DLDNghi>
+                <TTChung>
+                    <PBan>2.0.0</PBan>
+                    <MSo>15 - Mẫu số</MSo>
+                    <Ten>100 - Tên đề nghị</Ten>
+                    <TCQT>100 - Tên cơ quan thuế</TCQT>
+                    <TTCCNhan>400 - Tổ chức, cá nhân</TTCCNhan>
+                    <DCLHe>400 - Địa chỉ liên hệ</DCLHe>
+                    <DCTDTu>50 - Địa chỉ thư điện tử</DCTDTu>
+                    <DTLHe>20 - Điện thoại liên hệ</DTLHe>
+                    <SQDTLap>50 - Số quyết định thành lập</SQDTLap>
+                    <!-- Ngày cấp quyết định thành lập -->
+                    <NCQDTLap>2021-01-01T23:59:59</NCQDTLap>
+                    <CQCQDTLap>200 - Cơ quan cấp trên quyết định thành lập</CQCQDTLap>
+                    <MST>10101010101010</MST>
+                    <TNNHDon>50 - Tên người nhận hóa đơn</TNNHDon>
+                    <CMND>000123456789</CMND>
+                    <!-- Ngày cấp CMND -->
+                    <NgCCMND>2021-01-01T23:59:59</NgCCMND>
+                    <NCCMND>100 - Nơi cấp CMND</NCCMND>
+                    <DDanh>50 - Địa danh</DDanh>
+                    <NLap>2021-01-01T23:59:59</NLap>
+                </TTChung>
+
+                <!-- Nội dung đề nghị -->
+                <NDDNghi>
+                    <THHDVu>500 - Tên hàng hóa, dịch vụ</THHDVu>
+                    <Ten>400 - Tên người mua hàng hóa, dịch vụ</Ten>
+                    <DChi>400 - Địa chỉ người mua hàng hóa, dịch vụ</DChi>
+                    <MST>10101010101010</MST>
+                    <SHDong>50 - Số hợp đồng lao động</SHDong>
+                    <!-- Ngày hợp đồng mua bán hàng hóa dịch vụ -->
+                    <NHDong>2021-01-01T23:59:59</NHDong>
+                    <!-- Doanh thu phát sinh $19,4-->
+                    <DTPSinh>1000,0001</DTPSinh>
+                </NDDNghi>
+            </DLDNghi>
+
+            <DSCKS>
+                <NNT>
+                    <Signature></Signature>
+                </NNT>
+                <CCKSKhac></CCKSKhac>
+            </DSCKS>
+        </DNghi>
+    </DLieu>
+    <Signature></Signature>
+
+</TDiep>
