@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="vn.teca.hddt.etax.tvan.mapper.DocTaxMapper">
+  <resultMap id="BaseResultMap" type="vn.teca.hddt.etax.tvan.mapper.entity.DocTax">
+    <id column="ID" jdbcType="NUMERIC" property="id" />
+    <result column="LICENSE_NUMBER" jdbcType="VARCHAR" property="licenseNumber" />
+    <result column="LICENSE_DATE" jdbcType="VARCHAR" property="licenseDate" />
+    <result column="QUANTITY" jdbcType="VARCHAR" property="quantity" />
+    <result column="DURATION" jdbcType="VARCHAR" property="duration" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from DOC_TAX
+    where ID = #{id,jdbcType=NUMERIC}
+  </delete>
+  <insert id="insert" parameterType="vn.teca.hddt.etax.tvan.mapper.entity.DocTax">
+    insert into DOC_TAX (ID, LICENSE_NUMBER, LICENSE_DATE, 
+      QUANTITY, DURATION)
+    values (#{id,jdbcType=NUMERIC}, #{licenseNumber,jdbcType=VARCHAR}, #{licenseDate,jdbcType=VARCHAR}, 
+      #{quantity,jdbcType=VARCHAR}, #{duration,jdbcType=VARCHAR})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="vn.teca.hddt.etax.tvan.mapper.entity.DocTax">
+    update DOC_TAX
+    set LICENSE_NUMBER = #{licenseNumber,jdbcType=VARCHAR},
+      LICENSE_DATE = #{licenseDate,jdbcType=VARCHAR},
+      QUANTITY = #{quantity,jdbcType=VARCHAR},
+      DURATION = #{duration,jdbcType=VARCHAR}
+    where ID = #{id,jdbcType=NUMERIC}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select ID, LICENSE_NUMBER, LICENSE_DATE, QUANTITY, DURATION
+    from DOC_TAX
+    where ID = #{id,jdbcType=NUMERIC}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select ID, LICENSE_NUMBER, LICENSE_DATE, QUANTITY, DURATION
+    from DOC_TAX
+  </select>
+</mapper>
